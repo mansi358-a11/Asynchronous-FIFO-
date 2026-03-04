@@ -102,6 +102,7 @@ gtkwave async_fifo.vcd
 
 ## Simulation Waveform
 
+<img width="1919" height="847" alt="image" src="https://github.com/user-attachments/assets/281ac924-2721-4762-80f0-faa31f8d9315" />
 
 
 The waveform shows:
