@@ -63,16 +63,18 @@ To prevent metastability:
 
 ---
 
-## Simulation Waveform
+## Simulation 
 
-![Simulation Waveform](images/waveform.png)
+The design was simulated using Icarus Verilog and GTKWave to observe
+FIFO behavior under independent read and write clocks.
 
-The waveform verifies:
+The waveform demonstrates:
 
-* Correct pointer synchronization
-* Proper FULL and EMPTY flag behavior
-* Correct data ordering across asynchronous clocks
-
+• Correct write pointer increment
+• Correct read pointer increment
+• Proper Gray code conversion
+• Correct EMPTY flag behavior
+• Data written to FIFO appears correctly at the read output
 ---
 
 ## How to Run the Simulation
